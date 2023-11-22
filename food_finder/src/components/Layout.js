@@ -1,11 +1,11 @@
 import React, {useState, useEffect} from "react"
 import { AppBar,  Box, Button, IconButton, Toolbar, Typography, TextField, InputAdornment, Paper } from "@mui/material"
 import SearchIcon from '@mui/icons-material/Search';
-import Search from "../pages/Search"
+import Search from "../Pages/Search"
 import MenuIcon from '@mui/icons-material/Menu'
-import Detail from "../pages/Detail";
+import Detail from "../Pages/Detail";
 import {BrowserRouter, Routes, Route} from "react-router-dom"
-import yelp from '../api/yelp'
+//import yelp from '../api/yelp'
 
 const Layout = () => {
     const [searchText, setSearchText] = useState("Mexican Food")

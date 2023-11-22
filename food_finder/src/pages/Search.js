@@ -2,7 +2,7 @@ import React from "react"
 // import { Grid, Typography, Button, Card, CardContent  } from "@mui/material"
 // import { Link } from "react-router-dom"
 
-import SearchResults from "../components/searchResults"
+import SearchResults from "../Components/searchResults"
 
 const Search = ({searchResults, setRestaurantId}) => {
     
